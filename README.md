@@ -10,9 +10,8 @@ Las bases de datos que se usaron para la construccion de **COVID-19_Database** s
 * **Actualmed COVID-19 Chest X-ray Dataset Initiative:** https://github.com/agchung/Actualmed-COVID-chestxray-dataset#actualmed-covid-19-chest-x-ray-dataset-initiative 
 * **COVID-19 Radiography Database:** https://www.kaggle.com/tawsifurrahman/covid19-radiography-database 
 
-En este repositorio se adjuntara el resultado final del contenido de COVID-19_Database, pero incluyo el procedimiento de forma que, quede constancia de los algoritmos aplicados para llegar al contenido final de **COVID-19_Database.**
 
-## Procedimiento
+## Procedimiento para construir COVID-19_Database
   
 Cada una de estas bases de datos cuenta con un "**metadata.csv**" en el que se etiqueta a cada imagen con el tipo de anormalidad que presenta. Para llevar una clasificacion ordenada de principio a fin, se tomo la decision de usar algoritmos de clasificacion realizados con la herramienta de Python "**Jupyter Notebook**". Es importante mencionar que los algoritmos de clasificacion estan usando el "metadata" en su extension "**.xlsx**" habiendo realizado un proceso de separacion de datos por comas.
 
@@ -22,7 +21,7 @@ Se crea una carpeta destino con el nombre "DATASET" y dentro de ella, otras carp
 
 * Data_separada_Cohen
 * Data_separada_Figure1_SOLO_COVID
-* Data_convertida_separada_RSNA**
+* Data_convertida_separada_RSNA
 * Data_separada_ActualMed_SOLO_COVID
   
 Se excluye del proceso de clasificacion a la base de datos "**COVID-19 Radiography Database**" debido a que se encuentra en una correcta organizacion y etiquetacion de la clase en el nombre propio de la imagen.
@@ -31,7 +30,7 @@ Se excluye del proceso de clasificacion a la base de datos "**COVID-19 Radiograp
 
 Dentro de la carpeta "**Data_separada_Cohen**" vamos a crear dos carpetas adicionales y las llamaremos "COVID" y "PNEUMONIA"
 
-Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath" "cohen_imgpath" y "cohen_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
+Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath", "cohen_imgpath" y "cohen_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
 
 ### Clasificacion de la base de datos "Figure 1 COVID-19 Chest X-ray Dataset Initiative"
 
@@ -43,15 +42,15 @@ Debido a la escacez de imagenes dentro de esta base de datos en comparacion con 
 
 Dentro de la carpeta "**Data_convertida_separada_RSNA**" vamos a crear dos carpetas adicionales y las llamaremos "NEUMONIA" y "NORMAL"
 
-Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath" "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
+Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath", "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
 
 ### Clasificacion de la base de datos "Actualmed COVID-19 Chest X-ray Dataset Initiative"
 
 La carpeta "**Data_separada_ActualMed_SOLO_COVID**" sera la carpeta destino en donde podremos colocar el resultado de la clasificacion de imagenes solo con COVID-19.
 
-Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath" "actmed_imgpath" y "actmed_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
+Abrimos y corremos el algoritmo de clasificacion, teniendo presente que las variables "savepath", "actmed_imgpath" y "actmed_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio. A continuacion adjunto el link.
 
-### Combinacion de resultados pertenecientes a la misma clase
+### Union de resultados pertenecientes a la misma clase
 
 Se crean tres carpetas adicionales dentro de la carpeta "DATASET" con los nombres:
 
