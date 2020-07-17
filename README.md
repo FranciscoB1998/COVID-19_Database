@@ -30,7 +30,7 @@ Se excluye del proceso de clasificacion a la base de datos "**COVID-19 Radiograp
 
 Dentro de la carpeta "**Data_separada_Cohen**" vamos a crear dos carpetas adicionales y las llamaremos "COVID" y "PNEUMONIA"
 
-Abrimos y corremos el algoritmo de clasificacion [Separar\_datos\_Cohen.ipynb](../Separar_datos_Cohen.ipynb), teniendo presente que las variables "savepath", "cohen_imgpath" y "cohen_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
+Abrimos y corremos el algoritmo de clasificacion [Separar\_datos\_Cohen.ipynb](https://github.com/FranciscoB1998/COVID-19_Database/blob/master/Separar_datos_Cohen.ipynb), teniendo presente que las variables "savepath", "cohen_imgpath" y "cohen_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
 
 ### Clasificacion de la base de datos "Figure 1 COVID-19 Chest X-ray Dataset Initiative"
 
@@ -42,13 +42,13 @@ Debido a la escacez de imagenes dentro de esta base de datos en comparacion con 
 
 Dentro de la carpeta "**Data_convertida_separada_RSNA**" vamos a crear dos carpetas adicionales y las llamaremos "NEUMONIA" y "NORMAL"
 
-Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_RSNA.ipynb](FranciscoB1998/COVID-19_Database/Separar_data_RSNA.ipynb), teniendo presente que las variables "savepath", "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
+Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_RSNA.ipynb](https://github.com/FranciscoB1998/COVID-19_Database/blob/master/Separar_data_RSNA.ipynb), teniendo presente que las variables "savepath", "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
 
 ### Clasificacion de la base de datos "Actualmed COVID-19 Chest X-ray Dataset Initiative"
 
 La carpeta "**Data_separada_ActualMed_SOLO_COVID**" sera la carpeta destino en donde podremos colocar el resultado de la clasificacion de imagenes solo con COVID-19.
 
-Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_ActualMed.ipynb](../Separar_data_ActualMed.ipynb), teniendo presente que las variables "savepath", "actmed_imgpath" y "actmed_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
+Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_ActualMed.ipynb](https://github.com/FranciscoB1998/COVID-19_Database/blob/master/Separar_data_ActualMed.ipynb), teniendo presente que las variables "savepath", "actmed_imgpath" y "actmed_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
 
 ### Union de resultados pertenecientes a la misma clase
 
@@ -84,7 +84,7 @@ El proposito de este algoritmo, ademas de dividir el set de datos, es realizar u
 
 El resultado de usar el algoritmo seran dos carpetas "train" y "test", las cuales tendran imagenes en escala de grises de tamaño 480 x 480 y con su debida etiqueta en el nombre de la imagen acompañado de una numeracion que ira desde el 0.
 
-Para realizar esto creamos dos carpetas destinos dentro de la carpeta "DATASET" con el nombre de "train" y "test" y corremos el algoritmo [Separador\_train\_test.ipynb](../Separador_train_test.ipynb).
+Para realizar esto creamos dos carpetas destinos dentro de la carpeta "DATASET" con el nombre de "train" y "test" y corremos el algoritmo [Separador\_train\_test.ipynb](https://github.com/FranciscoB1998/COVID-19_Database/blob/master/Separador_train_test.ipynb).
 
 **Nota: Las direcciones cambiaran dependiendo en donde se haya instalado la carpeta "DATASET" o la carpeta "PROYECTO".**
 
