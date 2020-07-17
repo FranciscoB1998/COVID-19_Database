@@ -42,7 +42,7 @@ Debido a la escacez de imagenes dentro de esta base de datos en comparacion con 
 
 Dentro de la carpeta "**Data_convertida_separada_RSNA**" vamos a crear dos carpetas adicionales y las llamaremos "NEUMONIA" y "NORMAL"
 
-Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_RSNA.ipynb](../Separar_data_RSNA.ipynb), teniendo presente que las variables "savepath", "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
+Abrimos y corremos el algoritmo de clasificacion [Separar\_data\_RSNA.ipynb](FranciscoB1998/COVID-19_Database/Separar_data_RSNA.ipynb), teniendo presente que las variables "savepath", "rsna_imgpath" y "rsna_xlsxpath" podran variar dependiendo en donde hayamos descargado las bases de datos mencionadas al inicio de este repositorio.
 
 ### Clasificacion de la base de datos "Actualmed COVID-19 Chest X-ray Dataset Initiative"
 
